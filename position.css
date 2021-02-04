@@ -1,0 +1,28 @@
+
+img {
+        width: 2200px;
+        box-shadow: 7px 5px 8px 9px rgba(0,0,0,0.81);
+
+}
+article:nth-child(1) {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,131,203,0.577468487394958) 62%, rgba(0,212,255,1) 100%);
+}
+article:nth-child(1) img {
+    position: absolute;
+    top: 23%;
+    left: 28%;
+}
+
+article:nth-child(2) {
+    background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 33%, rgba(252,176,69,1) 100%);
+}
+article:nth-child(2) img {
+    position: absolute;
+    top: 123%;
+    left: 28%;
+}
+article {
+    height: 100vh;
+}
